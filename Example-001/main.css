@@ -1,4 +1,109 @@
+
+
+body {
+    background: #CCC;
+}
+
+header,
+.main,
+footer,
+div {
+    border: 1px solid #F00;
+}
+
+
+
+/* ---- HEADER ----*/
+
+header {
+    width: 1024px;
+    height: 50px;
+    margin: 0 auto;
+    background: #91b78a;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+}
+.navigation {
+    float:right;
+    width: 250px;
+}
+.login {
+    float: right;
+    width: 250px;
+}
+
+/* ---- SLIDER-TOP ----*/
+
+.slider-top {
+    width: 1024px;
+    height: 300px;
+    margin: 0 auto;
+    background: #c85f5f;
+}
+
+.slider-top-col1 {
+    float: left;
+    width: 510px;
+    height: 300px;
+}
+
+.slider-top-col2 {
+    float: right;
+    width: 510px;
+    height: 300px;
+}
+
+/* ---- MAIN ----*/
+
+.main {
+    width: 1024px;
+    min-height: 500px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
 h1 {
     color: black;
-    font-size: 1rem;
+    font-size: 2rem;
 }
+
+
+/* ---- FOOTER ----*/
+
+footer {
+    width: 1024px;
+    margin: 0 auto;
+    background: #bec8ea;
+}
+
+.footer-col1 {
+    float: left;
+    box-sizing: border-box;
+    width: 340px;
+    min-height: 150px;
+}
+
+.footer-col2 {
+    float: left;
+    width: 340px;
+    min-height: 150px;
+}
+
+.footer-col3 {
+    float: left;
+    width: 340px;
+}
+
+.footer-row-bottom {
+    height: 50px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
