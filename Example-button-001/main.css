@@ -1,0 +1,112 @@
+
+/*
+
+*/
+
+
+body {
+    background: #CCC;
+}
+
+h2 {
+    
+    font-weight: 700;
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+/* ---- MAIN ----*/
+
+.main {
+    width: 1024px;
+    min-height: 500px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+.main-row {
+    margin: 5px 10px;
+    border: 1px solid #999;
+    min-height: 50px;
+}
+
+.list-button {
+    width: 500px;
+    height: 60px;
+    border: 1px solid #cc9595;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+	text-align: center;
+    box-sizing: content-box;
+    width: 80px;
+    height: 30px;
+    padding: 12px 0 0 0;
+    border: 1px solid #b2f2fa;
+    border-radius: 5px;
+    background-color: #f29efa;
+    cursor: pointer;
+}
+
+/* -------- Style001 ---------- */
+.lbStyle001 {
+
+}
+
+.bbStyle001 {
+    color: #FFF;
+    background-color: #9c61d3;
+    margin: 5px 15px;
+}
+/* ============================ */
+
+
+/* -------- Style002 ---------- */
+.lbStyle002 {
+
+}
+
+.bbStyle002 {
+    padding: 10px 5px 0 5px;
+    margin: 5px 15px;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    background-color: #9c61d3;
+    border-radius: 50%;
+}
+/* ============================ */
+
+
+
+/* -------- Style003 ---------- */
+.lbStyle003 {
+
+}
+
+.bbStyle003 {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    margin: 5px 0;
+    background-color: #9c61d3;
+    border-radius: 50%;
+    cursor: auto;
+}
+
+.bbStyle003 img {
+    margin-top: 2px;
+    
+}
+
+/* ============================ */
+
+
+
