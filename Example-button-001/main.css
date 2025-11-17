@@ -34,7 +34,6 @@ p {
 }
 
 .list-button {
-    width: 500px;
     height: 60px;
     border: 1px solid #cc9595;
     margin-bottom: 10px;
@@ -57,6 +56,7 @@ p {
 /* -------- Style001 ---------- */
 .lbStyle001 {
 
+    width: 500px;
 }
 
 .bbStyle001 {
@@ -70,6 +70,7 @@ p {
 /* -------- Style002 ---------- */
 .lbStyle002 {
 
+    width: 500px;
 }
 
 .bbStyle002 {
@@ -88,6 +89,7 @@ p {
 /* -------- Style003 ---------- */
 .lbStyle003 {
 
+    width: 500px;
 }
 
 .bbStyle003 {
@@ -109,4 +111,58 @@ p {
 /* ============================ */
 
 
+/* -------- Style004 ---------- */
+.lbStyle004 {
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+    width: 600px;
+    flex-flow: wrap; /* если есть тогда убрать flex-direction: row; flex-wrap: wrap;*/
+}
 
+.bbStyle004 {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 7px 5px;
+    margin: 10px 5px;
+    width: 90px;
+    height: 30px;
+    color: #FFF;
+    background-color: #612897;
+    border-radius: 5px;
+}
+
+.bbStyle004 a {
+    text-decoration: none;
+    color: #FFF;
+}
+/* ============================ */
+
+/* -------- Style005 ---------- */
+.lbStyle005 {
+    display: flex;
+    justify-content: space-between;/* end */
+    align-items: center ;
+    width: 600px;
+    flex-flow: wrap; /* если есть тогда убрать flex-direction: row; flex-wrap: wrap;*/
+}
+
+.bbStyle005 {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 7px 5px;
+    margin: 10px 5px;
+    width: 90px;
+    height: 30px;
+    color: #FFF;
+    background-color: #612897;
+    border-radius: 5px;
+}
+
+.bbStyle005 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* ============================ */
