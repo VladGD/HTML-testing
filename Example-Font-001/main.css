@@ -5,14 +5,25 @@ Google Fonts
 Импорт шрифта в css
 */
 
+/*  -- Montserrat --  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*  -- Cardo --  */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+/*  -- Cormorant --  */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
 body {
     background: #CCC;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    font-width: 700;
+    font-weight: 700;
     font-size: 2em;
+}
+
+p {
+    margin-bottom: 5px;
 }
 
 /* ---- MAIN ----*/
@@ -29,6 +40,28 @@ h2 {
     border: 1px solid #999;
     min-height: 50px;
 }
+
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-400 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 
